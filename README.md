@@ -1,0 +1,24 @@
+
+# The rco Shiny App
+
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+Shiny app for the [rco package](https://jcrodriguez1989.github.io/rco/).
+
+## Installation and Running
+
+**Note:** When running it, dependencies will be installed.
+
+First, download the project, from a terminal type:
+
+``` bash
+git clone https://github.com/jcrodriguez1989/rco-shiny.git
+cd rco-shiny/
+R
+```
+
+To run the Shiny app, from R, type:
+
+``` r
+shiny::runApp()
+```
